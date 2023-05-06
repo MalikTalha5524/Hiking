@@ -1,0 +1,1685 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family:Arial narrow; */
+}
+
+.wrapper {
+    overflow: hidden;
+    font-family: 'Arimo', sans-serif;
+}
+
+/*!-- start header ------------------------------------------------------- */
+.logo img {
+    width: 200px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    padding: 40px 30px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(65, 61, 61);
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: rgb(194, 120, 10);
+    border: none;
+}
+
+.input-button {
+    width: -3px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.input-button input {
+    height: 7vh;
+    width: 45%;
+    border: none;
+    border-radius: 10px;
+    background-color: #7f7770;
+    font-size: 16px;
+    color: aliceblue;
+    outline: none;
+}
+
+.input-button button {
+    height: 7vh;
+    width: 25%;
+    border: none;
+    border-radius: 10px;
+    background-color: #7f7770;
+    transform: translateX(-30px);
+    color: beige;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* -- start slider --------------------------------------------------- */
+.slider {
+    height: 130vh;
+    width: 100%;
+    background: url(../images/hero_section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.slider_text {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    left: 140px;
+}
+
+.slider_text h1 {
+    font-size: 65px;
+    color: rgb(223, 169, 107);
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+}
+
+.slider_text h5 {
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.slider_text button {
+    background-color: aliceblue;
+    color: rgb(101, 94, 94);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    width: 180px;
+    height: 7vh;
+    padding: 8px;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.slider_text button:hover {
+    background-color: #6d9598;
+    color: aliceblue;
+}
+
+.slider_text p {
+    font-style: italic;
+    font-size: 20px;
+    word-spacing: 3px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+/* -- start lest-go ------------------------------------------------------ */
+.lets-img {
+    padding: 0 50px 0 50px;
+}
+
+.lets_heading {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.lets_heading h1 {
+    color: darkorange;
+    font-size: 55px;
+}
+
+.lets_heading p {
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(114, 107, 99);
+}
+
+.lets-img {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.malik:hover {
+    transform: scale(1.1);
+}
+
+.malik {
+    transition: all 1s;
+}
+
+.img img {
+    width: 100%;
+    height: 50vh;
+    /* -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition:.3s ease-in-out;
+	transition: .3s ease-in-out; */
+}
+
+.img img:hover {
+    /* -webkit-transform: scale(1.3);
+	transform: scale(1.3); */
+    /* width: 90%; */
+    /* height:50vh; */
+}
+
+.text {
+    background-color: #7f7770;
+    width: 72%;
+    height: 15vh;
+    padding: 30px 10px;
+    color: aliceblue;
+    margin-top: -4px;
+}
+
+.text h4 {
+    font-size: 20px;
+}
+
+#malik3 .img img {
+    width: 77%;
+}
+
+.text p {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.first_box {
+    margin-right: 100px;
+}
+
+.show_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.show_button button {
+    display: flex;
+    width: 18%;
+    height: 60px;
+    font-size: 22px;
+    justify-content: center;
+    border: none;
+    border-radius: 30px;
+    background-color: #7f7770;
+    font-weight: bold;
+}
+
+.show_button button {
+    color: aliceblue;
+    padding: 17px 28px;
+    cursor: pointer;
+    transition: 1s ease;
+    margin-right: 100px;
+}
+
+.show_button button:hover {
+    background-color: #6d9598;
+}
+
+.lets-go {
+    position: relative;
+}
+
+.leaf_img {
+    height: 50vh;
+    width: 50%;
+    background-image: url(../images/leaf_background-removebg-preview.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 500px;
+    left: -80px;
+    z-index: -1;
+    opacity: 1;
+}
+
+/* -- start discount side-image ------------------------------------------------------- */
+.side-image {
+    margin-top: 200px;
+}
+
+.side-image .discount {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.discount {
+    width: 50%;
+    height: 80vh;
+}
+
+.img_1 {
+    width: 100%;
+    height: 100%;
+}
+
+.img_1 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -4px;
+}
+
+.discount .text_1 {
+    width: 100%;
+    height: 100;
+    background-color: #deb37e;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.side-image .discount #text-color {
+    background-color: #7f7770;
+}
+
+.discount .text_1 p {
+    font-size: 20px;
+    width: 487px;
+    margin-top: 35px;
+}
+
+.discount .text_1 button {
+    width: 200px;
+    height: 8vh;
+    cursor: pointer;
+    margin: 56px 200px 0px 0px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e2a355;
+    color: aliceblue;
+    transition: 1.s ease;
+}
+
+.discount .text_1 .db:hover {
+    background-color: #6d9598;
+
+}
+
+.discount .text_1 button h5 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* -- start hiking mountains ------------------------------------------------- */
+.hiking-mountains {
+    height: 115vh;
+    width: 100%;
+}
+
+.hiking-background {
+    width: 100%;
+    height: 115vh;
+    background-image: url(../images/bbbbb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiking-background .hiking-text {
+    color: aliceblue;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hiking-background .hiking-text h2 {
+    font-size: 45px;
+}
+
+.hiking-background .hiking-text p {
+    font-size: 20px;
+    height: 30vh;
+    width: 642px;
+    margin-top: 40px;
+}
+
+/* -- start explore --------------------------------------------------------------- */
+.explore-bg {
+    background-image: url(../images/aaaa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.explore {
+    margin-right: 70px;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    color: #e2a355;
+}
+
+.explore h1 span {
+    font-size: 65px;
+    color: black;
+}
+
+/* -- start leaf bg and lorem-ipsum ------------------------------------------------- */
+.lorem-ipsum {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lorem-1:hover {
+    transform: scale(1.1);
+    background-color: rgb(161, 157, 157, 0.7);
+    height: 25vh;
+    padding: 30px 10px 0px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.lorem-1 {
+    transition: all 1s;
+}
+
+.lorem-ipsum .lorem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.lorem-ipsum .lorem .lorem-h {
+    color: #e2a355;
+    font-size: 21px;
+    padding: 0 0 20px 0;
+}
+
+.lorem-ipsum .lorem .lorem-1 {
+    width: 25%;
+}
+
+#leaf-bg {
+    background-image: url(../images/leaf-2.jpg);
+    background-size: 550px 275px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.lorem-text {
+    height: 33vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lorem-text h1 {
+    font-size: 50px;
+}
+
+.lorem-text p {
+    width: 500px;
+    text-align: center;
+}
+
+.lorem-text h5 {
+    padding-top: 25px;
+    font-size: 15px;
+}
+
+/* -- start email-subscripition ------------------------------------------------ */
+.email-subscription {
+    background-image: url(../images/dddddd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+}
+
+.email-subscription .title-here {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 120vh;
+}
+
+.title-here h1 {
+    font-size: 48px;
+    color: aliceblue;
+}
+
+.title-here pre {
+    font-size: 18px;
+    margin-top: 25px;
+    word-spacing: -1px;
+}
+
+.input-form input {
+    font-size: 30px;
+    border: none;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    outline: none;
+}
+
+.title-here .input-form input {
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.title-here .input-form button {
+    height: 39px;
+    width: 130px;
+    background-color: #7f7770;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateX(-30px);
+    transition: 1s ease;
+}
+
+.title-here .input-form button:hover {
+    background-color: #ff7700;
+}
+
+/* -- start footer ----------------------------------------------------------- */
+.title-footer {
+    background-image: url(../images/ccccccc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-footer h4 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.title-footer a {
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.title-footer .title-footer1 {
+    width: 25%;
+    margin-top: 40px;
+}
+
+.title-footer .title-footer1 p {
+    font-size: 16px;
+}
+
+.title-footer .title-footer2 {
+    width: 18%;
+}
+
+.title-footer .title-footer3 {
+    width: 18%;
+}
+
+.title-footer .title-footer4 {
+    width: 18%;
+    margin-bottom: 45px;
+}
+
+#nav_btn,
+.nav_btn {
+    display: none;
+}
+
+.icon {
+
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.icon-main {
+    height: 6vh;
+    width: 16%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    color: black;
+    cursor: pointer;
+}
+
+.title-footer a:hover {
+    color: rgb(78, 78, 181);
+    text-decoration: underline;
+}
+
+#allbtn:hover {
+    color: aquamarine;
+    transition: top 0.5s ease-in-out;
+    background-color: cadetblue;
+    font-size: 20px;
+}
+
+/* End footer--------------------------------------------------- */
+/* responsive query start  */
+/*---------------------------------------------------- max-width:1032----------------------------------------- */
+@media screen and (max-width:1032px) {
+    nav {
+        justify-content: flex-start;
+    }
+
+    nav .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .navbar ul li {
+        padding: 5px;
+        display: inline-flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .slider_text {
+        position: absolute;
+        top: 210px;
+        left: 90px;
+        width: 45%;
+    }
+
+    .lets-go .lets_heading {
+        margin-top: 0px;
+    }
+
+    .lets-go .lets-img {
+        width: 100%;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+
+    .lets-go .lets-img .malik {
+        width: 25%;
+    }
+
+    #malik3 .img img {
+        width: 100%;
+
+    }
+
+    .lets-go .first_box {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .lets-img .img img {
+        width: 100%;
+        height: 50vh;
+
+    }
+
+    .lets-img .img img:hover {
+        transform: scale(1);
+        transition: .3s ease-in-out;
+    }
+
+    .text {
+        width: 92%;
+        height: 15vh;
+    }
+
+    .lets-img {
+        justify-content: space-around;
+    }
+
+    .show_button {
+        margin-top: 40px;
+    }
+
+    .show_button button {
+        padding: 20px;
+        font-size: 18px;
+        transform: translateX(-10px);
+        margin-right: 0px;
+    }
+
+    .leaf_img {
+        position: absolute;
+        top: 533px;
+    }
+
+    .side-image .discount {
+        width: 100%;
+    }
+
+    .discount .text_1 {
+        font-size: 30px;
+    }
+
+    .discount .text_1 p {
+        font-size: 18px;
+    }
+
+    .discount .text_1 button {
+        margin: 41px 0px 0px 13px;
+    }
+
+    .hiking-background {
+        width: 100%;
+    }
+
+    .hiking-mountains {
+        height: 100vh;
+    }
+
+    .hiking-background .hiking-text h2 {
+        font-size: 35px;
+    }
+
+    .hiking-background .hiking-text p {
+        font-size: 18px;
+    }
+
+    .explore-bg {
+        width: 100%;
+        height: 107vh;
+    }
+
+    .explore {
+        margin-right: 40px;
+    }
+
+    .explore h1 span {
+        font-size: 55px
+    }
+
+    .lorem-ipsum {
+        width: 100%;
+    }
+
+    .lorem-ipsum .lorem {
+        padding: 0;
+    }
+
+    .lorem-text {
+        width: 100%;
+    }
+
+    #leaf-bg {
+        margin: 0;
+        width: 100%;
+    }
+
+    .email-subscription {
+        width: 100%;
+        height: 105vh;
+    }
+
+    .title-here h1 {
+        font-size: 43px;
+    }
+
+    .title-here .input-form {
+        margin-top: 15px;
+    }
+
+    .title-here .input-form input {
+        width: 255px;
+    }
+
+    .title-footer {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .title-footer .title-footer1 {
+        width: 37%;
+        height: 34vh;
+    }
+
+    .title-footer .title-footer4 {
+        height: 34vh;
+    }
+}
+
+/* --------------------------------------------max-width:990--------------------------------------------------- */
+@media screen and (max-width:990px) {
+    nav {
+        justify-content: flex-start;
+    }
+
+    nav .logo {
+        width: 20%;
+        margin-left: -34px;
+        margin-top: 10px;
+    }
+
+    nav .logo img {
+        width: 189px;
+        height: 93px;
+    }
+
+    .navbar .input-button {
+        margin-top: 14px;
+        margin-left: -3px;
+    }
+
+    .input-button {
+        margin: 14px;
+    }
+
+    .input-button input {
+        background-color: aliceblue;
+        color: #7f7770;
+        margin-left: 350px;
+    }
+
+    .input-button button {
+        background-color: aliceblue;
+        color: #e2a355;
+    }
+
+    nav .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .navbar ul {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 13;
+        flex-direction: column;
+        background: rgb(128, 119, 114);
+        width: 100%;
+        height: 100vh;
+        justify-content: flex-start;
+        padding: 26px;
+        transition: left 1.5s ease-in-out;
+        /* border-radius: 50px; */
+        border: 3px solid rgb(221, 167, 67);
+    }
+
+    #nav_btn:checked+ul {
+        left: 0%;
+    }
+
+    #nav_btn {
+        display: none;
+    }
+
+    .nav_btn {
+        display: inline-block;
+        position: fixed;
+        top: 35px;
+        right: 35px;
+        z-index: 11;
+        cursor: pointer;
+        font-size: 27px;
+    }
+
+    .nav_btn.close {
+        z-index: 14;
+        position: absolute;
+        color: aliceblue;
+    }
+
+    .navbar ul li {
+        display: inline-flex;
+        align-items: center;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .navbar ul {
+        width: 94%;
+    }
+
+    .navbar ul li a {
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .slider_text {
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        width: 45%;
+    }
+
+    .slider_text h1 {
+        font-size: 40px;
+    }
+
+    .slider_text h5 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .slider_text button {
+        font-size: 15px;
+        width: 40%;
+        margin-top: 34px;
+    }
+
+    .slider_text p {
+        font-size: 16px;
+        width: 320px;
+        margin-top: 40px;
+    }
+
+    .lets-go {
+        overflow: hidden;
+    }
+
+    .lets-go .lets_heading h1 {
+        font-size: 40px;
+    }
+
+    .lets-go .lets_heading p {
+        font-size: 20px;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .show_button button {
+        padding: 15px;
+        width: 20%;
+        height: 8vh;
+        font-size: 14px;
+    }
+
+    .lets-go .lets-img {
+        flex-wrap: wrap;
+    }
+
+    .lets-go .lets-img .malik {
+        width: 40%;
+    }
+
+    .lets-go .lets-img .text {
+        width: 95%;
+    }
+
+    .lets-go .lets-img #malik3 {
+        margin: 51px 482px 0px 0px;
+    }
+
+    #malik3 .img img {
+        width: 100%;
+    }
+
+    .lets-img .img img {
+        /* width: 100%; */
+        height: 60vh;
+    }
+
+    .leaf_img {
+        position: absolute;
+        top: 550px;
+        left: 400px;
+    }
+
+    .side-image {
+        margin-top: 77px;
+    }
+
+    .side-image .discount {
+        height: -2%;
+    }
+
+    .discount .text_1 {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .discount {
+        height: 60vh;
+    }
+
+    .img_1 {
+        height: 60vh;
+    }
+
+    .img_1 img {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .discount .text_1 h3 {
+        font-size: 20px;
+    }
+
+    .discount .text_1 p {
+        font-size: 15px;
+        width: 383px;
+    }
+
+    .discount .text_1 button {
+        width: 31%;
+        height: 5vh;
+    }
+
+    .hiking-mountains {
+        height: 75vh;
+    }
+
+    .hiking-background {
+        height: 75vh;
+    }
+
+    .hiking-background .hiking-text h2 {
+        font-size: 24px;
+    }
+
+    .hiking-background .hiking-text p {
+        font-size: 15px;
+    }
+
+    .explore-bg {
+        height: 87vh;
+    }
+
+    .explore {
+        margin-right: 40px;
+        font-size: 23px;
+    }
+
+    .explore h1 span {
+        font-size: 40px;
+    }
+
+    .lorem-ipsum {
+        flex-wrap: wrap;
+    }
+
+    .lorem {
+        flex-wrap: wrap;
+    }
+
+    .lorem-ipsum .lorem .lorem-1 {
+        width: 40%;
+    }
+
+    .lorem-ipsum .lorem #lorem-13 {
+        margin: 34px 0px 10px -153px;
+        padding-right: 223px;
+    }
+
+    .email-subscription {
+        height: 80vh;
+    }
+
+    .email-subscription .title-here {
+        height: 85vh;
+    }
+
+    .email-subscription .title-here h1 {
+        font-size: 35px;
+    }
+
+    .email-subscription .title-here p {
+        font-size: 17px;
+    }
+
+    .email-subscription .title-here button {
+        margin-top: -10px;
+    }
+
+    .title-here .input-form input {
+        width: 172px;
+    }
+
+    .title-here .input-form input:placeholder-shown {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .title-here .input-form button {
+        width: 93px;
+    }
+
+    .title-footer {
+        height: 75vh;
+    }
+
+    .title-footer .title-footer1 {
+        margin-top: 9px;
+    }
+
+    .title-footer .title-footer4 {
+        margin-bottom: 13px;
+    }
+
+    .title-footer .title-footer1 i {
+        margin-left: 0px;
+    }
+}
+
+/* --------------------------------------------max-width:960--------------------------------------------------- */
+@media screen and (max-width:960px) {
+    .navbar ul {
+        width: 94%;
+    }
+
+    .input-button input {
+        width: 30%;
+        margin-left: 280px;
+    }
+
+    .input-button button {
+        width: 10%;
+    }
+}
+
+/* --------------------------------------------max-width:940--------------------------------------------------- */
+@media screen and (max-width:940px) {
+    .navbar ul {
+        width: 92%;
+    }
+}
+
+/* --------------------------------------------max-width:768--------------------------------------------------- */
+@media screen and (max-width:768px) {
+    .navbar ul {
+        width: 91%;
+    }
+
+    .input-button input {
+        margin-left: 250px;
+    }
+
+    .lets-img .img img {
+        width: 101%;
+    }
+
+    .lets-go .lets-img #malik3 {
+        margin: 51px 390px 0px 0px;
+    }
+
+    #malik3 .img img {
+        width: 101%;
+    }
+
+    .icon {
+        width: 25%;
+    }
+
+    .icon .icon-main {
+        height: 5vh;
+        width: 19%;
+        font-size: 20px;
+    }
+
+    .title-footer {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .title-footer .title-footer1 {
+        width: 100%;
+        margin: 80px;
+        margin-top: 150px;
+    }
+
+    .title-footer .title-footer2 {
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .title-footer .title-footer3 {
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .title-footer .title-footer4 {
+        width: 100%;
+        margin: 80px;
+    }
+
+    .discount .text_1 p {
+        width: 70%;
+    }
+
+    .discount .text_1 button {
+        width: 31%;
+        height: 7vh;
+    }
+
+    .discount .text_1 button h5 {
+        font-size: 14px;
+    }
+}
+
+/* --------------------------------------------max-width:635--------------------------------------------------- */
+@media screen and (max-width:635px) {
+    .navbar ul {
+        width: 89%;
+    }
+
+    .input-button input {
+        width: 100px;
+        margin-left: 220px;
+    }
+}
+
+/* --------------------------------------------max-width:500--------------------------------------------------- */
+@media screen and (max-width:500px) {
+    .navbar ul {
+        width: 87%;
+    }
+
+    .input-button input {
+        width: 100px;
+        margin-left: 160px;
+    }
+}
+
+/* --------------------------------------------max-width:450px--------------------------------------------------- */
+@media screen and (max-width:450px) {
+    header {
+        height: 12vh;
+    }
+
+    .navbar ul {
+        width: 87%;
+    }
+
+    .input-button input {
+        width: 120px;
+        margin-left: 140px;
+    }
+
+    .input-button button {
+        width: 13px;
+    }
+
+    nav .logo img {
+        width: 134px;
+        height: 53px;
+    }
+
+    .nav_btn {
+        position: fixed;
+        top: 23px;
+        right: 20px;
+        font-size: 20px;
+    }
+
+    .input-button button {
+        width: 35px;
+    }
+
+    .slider {
+        height: 45.5vh
+    }
+
+    .slider_text {
+        position: absolute;
+        top: 22px;
+        left: 12px;
+    }
+
+    .slider_text h1 {
+        font-size: 15px;
+    }
+
+    .slider_text h5 {
+        font-size: 8px;
+        margin-top: 3px;
+    }
+
+    .slider_text button {
+        font-size: 8px;
+        width: 46%;
+        margin-top: 4px;
+    }
+
+    .slider_text p {
+        font-size: 10px;
+        width: 148px;
+        margin-top: 5px;
+    }
+
+    .lets-go .lets_heading h1 {
+        font-size: 30px;
+    }
+
+    .lets-go .lets_heading p {
+        font-size: 12px;
+    }
+
+    .lets-img {
+        margin-top: 30px;
+    }
+
+    .lets-go .lets-img .malik {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .lets-go .lets-img .text {
+        width: 96%;
+    }
+
+    .lets-go .lets-img #malik3 {
+        margin: 15px 0 0 0;
+    }
+
+    .lets-img .img img {
+        height: 55vh;
+    }
+
+    .leaf_img {
+        display: none;
+    }
+
+    .show_button {
+        margin-top: 20px;
+    }
+
+    .show_button button {
+        padding: 6px;
+        width: 26%;
+        height: 5vh;
+        font-size: 11px;
+    }
+
+    .side-image {
+        margin-top: 25px;
+    }
+
+    .side-image .discount {
+        height: -2%;
+        flex-wrap: wrap;
+    }
+
+    .discount .text_1 {
+        height: 60vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .discount .text_1 .img_1 img {
+        margin-top: 20px;
+    }
+
+    .discount .text_1 p {
+        font-size: 13px;
+        width: 222px;
+    }
+
+    .discount .text_1 button h5 {
+        font-size: 12px;
+    }
+
+    .discount .text_1 {
+        margin-top: 20px;
+    }
+
+    .hiking-background {
+        height: 50vh;
+        margin-top: 100px;
+    }
+
+    .hiking-background .hiking-text h2 {
+        font-size: 19px;
+        margin-top: 25x;
+    }
+
+    .hiking-background .hiking-text p {
+        font-size: 11px;
+        margin-top: 16px;
+        width: 286px;
+    }
+
+    .hiking-mountains {
+        height: 47vh;
+    }
+
+    .explore-bg {
+        height: 52vh;
+    }
+
+    .explore {
+        margin-right: 5px;
+        font-size: 17px;
+    }
+
+    .explore h1 span {
+        font-size: 20px;
+    }
+
+    .lorem-ipsum .lorem {
+        flex-wrap: wrap;
+    }
+
+    .lorem-ipsum .lorem .lorem-1 {
+        width: 100;
+    }
+
+    .lorem-ipsum .lorem .lorem-1 {
+        width: 100%;
+    }
+
+    .lorem-ipsum .lorem #lorem-13 {
+        margin: 0px;
+        padding-right: 0px;
+    }
+
+    .lorem-ipsum .lorem .lorem-h {
+        font-size: 16px;
+        padding: 0px 0px 0px 8px
+    }
+
+    .lorem-ipsum .lorem .lorem-1 p {
+        padding: 10px;
+    }
+
+    .lorem-text h1 {
+        font-size: 27px;
+        margin-top: 60px;
+    }
+
+    .lorem-text p {
+        width: 277px;
+        font-size: 13px;
+    }
+
+    .lorem-text h5 {
+        padding-top: 10px;
+        font-size: 10px;
+    }
+
+    .email-subscription {
+        height: 55vh;
+    }
+
+    .email-subscription .title-here {
+        height: 61vh;
+    }
+
+    .email-subscription .title-here h1 {
+        font-size: 23px;
+    }
+
+    .title-here pre {
+        font-size: 10px;
+        margin-top: 23px;
+    }
+
+    .title-here .input-form button {
+        width: 61px;
+        font-size: 9px;
+    }
+
+    .title-here .input-form {
+        margin-top: -25px;
+    }
+
+    .title-here .input-form button {
+        width: 50px;
+        height: 27px;
+        font-size: 7px;
+        padding-left: 6px;
+    }
+
+    .title-here .input-form input:placeholder-shown {
+        font-size: 12px;
+        padding-left: -31px;
+        height: 1vh;
+    }
+
+    .title-here .input-form input:placeholder-shown {
+        font-size: 10px;
+        padding-left: 10px;
+        margin-left: 48px;
+    }
+
+    .title-here .input-form input {
+        width: 81px;
+    }
+
+    .title-footer .title-footer1 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .title-footer .title-footer2 {
+        width: 100%;
+        margin-left: 80px;
+    }
+
+    .title-footer .title-footer2 h4 {
+        margin-bottom: 0px;
+    }
+
+    .title-footer .title-footer3 {
+        width: 100%;
+        margin-left: 80px;
+    }
+
+    .title-footer .title-footer3 h4 {
+        margin-bottom: 0px;
+    }
+
+    .title-footer .title-footer4 {
+        margin-left: 80px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .title-footer .title-footer4 h4 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .icon {
+        width: 35%;
+    }
+
+    .icon .icon-main {
+        height: 4vh;
+        width: 20%;
+        font-size: 15px;
+    }
+
+    .title-footer #brand {
+        display: none;
+    }
+}
+
+/* ---------------------------------------------max-width:425px--------------------------------------------------- */
+@media screen and (max-width:425px) {
+    .navbar ul {
+        width: 86%;
+    }
+
+    .input-button input {
+        margin-left: 120px;
+    }
+}
+
+/* --------------------------------------------max-width:400--------------------------------------------------- */
+@media screen and (max-width:400px) {
+    .navbar ul {
+        width: 84%;
+    }
+
+    .input-button input {
+        width: 100px;
+        margin-left: 115px;
+    }
+}
+
+/* ---------------------------------------------max-width:375px--------------------------------------------------- */
+@media screen and (max-width:375px) {
+    .navbar ul {
+        width: 84.5%;
+    }
+
+    .input-button input {
+        margin-left: 100px;
+    }
+
+    .title-footer .title-footer2 {
+        margin-top: 30px;
+    }
+
+    .icon-main {
+        height: 5vh;
+        width: 19%;
+        font-size: 18px;
+    }
+
+    .title-footer {
+        height: 130vh;
+    }
+}
+
+/* --------------------------------------------max-width:360--------------------------------------------------- */
+@media screen and (max-width:360px) {
+    .navbar ul {
+        width: 83%;
+    }
+
+    .input-button input {
+        width: 100px;
+        margin-left: 100px;
+    }
+}
+
+/* --------------------------------------------max-width:335--------------------------------------------------- */
+@media screen and (max-width:335px) {
+    .navbar ul {
+        width: 81%;
+    }
+
+    .input-button input {
+        width: 100px;
+        margin-left: 80px;
+    }
+}
+
+/* ------------------------------------------------max-width: 320px------------------------------------------------- */
+@media screen and (max-width:320px) {
+    .navbar ul {
+        width: 81%;
+    }
+
+    .input-button input {
+        margin-left: 73px;
+    }
+
+    .title-footer .title-footer1 .icon {
+        width: 100%;
+    }
+
+    .title-footer .title-footer2 {
+        margin-top: 80px;
+    }
+
+    .icon-main {
+        height: 5vh;
+        width: 17%;
+        font-size: 20px;
+    }
+
+    .explore-bg {
+        height: 36vh;
+    }
+
+    .title-footer {
+        height: 140vh;
+    }
+
+    .icon {
+        width: 0%;
+    }
+
+    .icon .icon-main {
+        height: 4vh;
+        width: 15%;
+        font-size: 15px;
+    }
+}
+
+/* --------------------------------------------max-width:310--------------------------------------------------- */
+@media screen and (max-width:310px) {
+    .navbar ul {
+        width: 80%;
+    }
+
+    .input-button input {
+        width: 100px;
+        margin-left: 72px;
+    }
+}
